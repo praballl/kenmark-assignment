@@ -19,17 +19,16 @@ TABLENAME = students
 
 3) Make 4 rows in your your table of-:
 
-id         INT       11    PRIMARY(true)
-name       VARCHAR   200
-email      VARCHAR   200 
-password   VARCHAR   200
+id               INT       11    PRIMARY(true)
+name             VARCHAR   200
+description      VARCHAR   2000 
 
 4) Copy the below code and past it in a black nodepad as save as ".env"
 
 PORT= 5000
-USER = user
+USER = productUser
 PASSWORD = user123
-DATABASE =college
+DATABASE =company
 DB_PORT = 3306
 HOST = localhost
 
