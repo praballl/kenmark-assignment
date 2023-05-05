@@ -1,0 +1,22 @@
+.b-form {
+  padding: 2% 10%;
+}
+.search {
+  margin: 3%;
+  text-align: center;
+}
+.butn {
+  margin-top: 2%;
+}
+.b-table {
+  border: 1px solid black;
+}
+
+.fcontrom {
+  width: 40%;
+  padding: 6px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ccc;
+}

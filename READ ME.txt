@@ -1,0 +1,45 @@
+Hello there, THE CODERS, to make your life easier I made this small web application for you all where you can do all CRUD operation 
+and you can use this in your web application where you want to SIGN IN  new people. 
+
+
+To run the code you must follow some steps.
+
+1) Open the folder where you saved all the file of this web application open terminal and type "npm install" or "npm i" to intall all 
+the required modules.
+
+2) Create a new Data base in your XAMPP say same as below mentioned-:
+
+PORT= 5000
+USER = user
+PASSWORD = user123
+DATABASE =college
+DB_PORT = 3306
+HOST = localhost
+TABLENAME = students
+
+3) Make 4 rows in your your table of-:
+
+id         INT       11    PRIMARY(true)
+name       VARCHAR   200
+email      VARCHAR   200 
+password   VARCHAR   200
+
+4) Copy the below code and past it in a black nodepad as save as ".env"
+
+PORT= 5000
+USER = user
+PASSWORD = user123
+DATABASE =college
+DB_PORT = 3306
+HOST = localhost
+
+5) Copy ".env" file and past it where you have all the files of this web application.
+
+6) Open terminal in your web application folder and type "node app.js" 
+
+7) Open any browser and typr "localhost:5000/"
+
+8) HERE YOU GOO!!!
+
+
+Thank you- made by Prabal Namdeo
